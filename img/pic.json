@@ -1,0 +1,28 @@
+[
+    {"id":1, "img":"img/door.png", "location":{"yellow_door":[0, 0], "blue_door":[0, 1], "red_door":[0, 2], "stone_door":[0, 3]}},
+    {"id":2, "img":"img/floor.png", "location":[0, 0]},
+    {"id":3, "img":"img/key.png", "location":{"yellow_key":[0, 0], "blue_key":[0, 1], "red_key":[0, 2], "green_key":[0, 3]}},
+    {"id":4, "img":"img/wall.png", "location":{"stone_wall":[0, 0], "dirt_wall":[0, 1], "iron_wall":[0, 2]}},
+    {"id":5, "img":"img/hero.png", "location":{"hero_down":[0, 0], "hero_left":[1, 0], "hero_right":[2, 0], "hero_up":[3, 0]}},
+    {"id":6, "img":"img/down_floor.png", "location":[0, 0]},
+    {"id":7, "img":"img/up_floor.png", "location":[0, 0]},
+    {"id":8, "img":"img/enemy.png", "location":{"skull":[0, 0]}},
+    {"id":9, "img":"img/genius.png", "location":[0, 0]},
+    {"id":10, "img":"img/grass.png", "location":[3, 1]},
+    {"id":11, "img":"img/gem.png", "location":{"atk_gem":[3, 0], "def_gem":[3, 1], "sp_gem":[3, 2], "mdef_gem":[3, 3]}},
+    {"id":12, "img":"img/dialog.png", "location":[0, 0]},
+    {"id":13, "img":"img/battle.png", "location":[0, 0]},
+    {"id":14, "img":"img/enemy.png", "location":{
+            "green_slime":[8, 0], "red_slime":[9, 0], "black_slime":[10, 0], "skull_weak":[0, 0], "skull_normal":[1, 0], "skull_strong":[2, 0],
+            "skull_diamond":[3, 0], "bat_small":[4, 0], "bat_big":[5, 0], "bat_red":[6, 0], "king_slime":[11, 0],
+            "master_blue":[12, 0], "master_red":[13, 0], "master_yellow_big":[14, 0], "master_red_big":[15, 0], "monster_normal":[16, 0],
+            "monster_strong":[17, 0], "stone_monster":[18, 0]
+        }
+    },
+    {"id":15, "img":"img/btn_ok.png", "location":[0, 0]},
+    {"id":16, "img":"img/btn_cancel.png", "location":[0, 0]},
+    {"id":17, "img":"img/diag_select.png", "location":[0, 0]},
+    {"id":18, "img":"img/select_item.png", "location":[0, 0]},
+    {"id":19, "img":"img/npc_1.png", "location":{"business":[1, 0], "elder":[0, 0], "thief":[2, 0], "genius":[3, 0]}},
+    {"id":20, "img":"img/env.png", "location":{"lava":[3, 0]}}
+]
