@@ -40,6 +40,10 @@ bool TowerLog::init(TRLOG_LEVEL lv, const std::string &file)
         p_ = stdout;
         isConsole_ = true;
     }
+    else
+    {
+        p_ = fopen(file.c_str(), "wb");
+    }
     return false;
 }
 
@@ -70,7 +74,10 @@ const char *TowerLog::lvToStr(TRLOG_LEVEL lv)
 void TowerLog::write(const char *buf, uint32_t len)
 {
     if(p_)
+    {
         fwrite(buf, len, 1, p_);
+        fflush(p_);
+    }
     else
         fwrite(buf, len, 1, stdout);
 }

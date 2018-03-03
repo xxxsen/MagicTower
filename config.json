@@ -10,5 +10,6 @@
     "select_dialog":{"location":{"x":120, "y":150}, "img":"17#", "item_img":"18#"},
     "alert_msgid":12,
     "no_money_msgid":14,
-    "log_level":1
+    "log_level":0,
+    "log_file":"/home/sen/Desktop/tower.log"
 }
